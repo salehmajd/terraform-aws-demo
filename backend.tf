@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "studi-tfstate-bucket"
+    bucket = "studi-demo-tfstate-bucket"
     key = "state/aws-demo/terraform.tfstate"
     region = "eu-west-3"
     encrypt = true
